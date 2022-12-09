@@ -1,0 +1,365 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pagination rules fails when non-paginated endpoint specifies any pagination parameter 1`] = `
+[
+  {
+    "change": {
+      "added": {
+        "method": "get",
+        "pathPattern": "/api/users",
+      },
+      "changeType": "added",
+      "location": {
+        "conceptualLocation": {
+          "method": "get",
+          "path": "/api/users",
+        },
+        "conceptualPath": [
+          "operations",
+          "/api/users",
+          "get",
+        ],
+        "jsonPath": "/paths/~1api~1users/get",
+        "kind": "operation",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/jsonapi.md#pagination-parameters",
+    "error": "expected operation to not support pagination parameter starting_after",
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "unsupported pagination parameters",
+    "passed": false,
+    "received": undefined,
+    "type": "added",
+    "where": "GET /api/users",
+  },
+  {
+    "change": {
+      "added": {
+        "method": "get",
+        "pathPattern": "/api/users",
+      },
+      "changeType": "added",
+      "location": {
+        "conceptualLocation": {
+          "method": "get",
+          "path": "/api/users",
+        },
+        "conceptualPath": [
+          "operations",
+          "/api/users",
+          "get",
+        ],
+        "jsonPath": "/paths/~1api~1users/get",
+        "kind": "operation",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/jsonapi.md#pagination-parameters",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "unsupported pagination parameters",
+    "passed": true,
+    "received": undefined,
+    "type": "added",
+    "where": "GET /api/users",
+  },
+  {
+    "change": {
+      "added": {
+        "method": "get",
+        "pathPattern": "/api/users",
+      },
+      "changeType": "added",
+      "location": {
+        "conceptualLocation": {
+          "method": "get",
+          "path": "/api/users",
+        },
+        "conceptualPath": [
+          "operations",
+          "/api/users",
+          "get",
+        ],
+        "jsonPath": "/paths/~1api~1users/get",
+        "kind": "operation",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/jsonapi.md#pagination-parameters",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "unsupported pagination parameters",
+    "passed": true,
+    "received": undefined,
+    "type": "added",
+    "where": "GET /api/users",
+  },
+]
+`;
+
+exports[`pagination rules fails when paginated endpoints do not specify links 1`] = `
+[
+  {
+    "change": {
+      "added": {
+        "method": "get",
+        "pathPattern": "/api/users",
+      },
+      "changeType": "added",
+      "location": {
+        "conceptualLocation": {
+          "method": "get",
+          "path": "/api/users",
+        },
+        "conceptualPath": [
+          "operations",
+          "/api/users",
+          "get",
+        ],
+        "jsonPath": "/paths/~1api~1users/get",
+        "kind": "operation",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/jsonapi.md#pagination-parameters",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "pagination parameters",
+    "passed": true,
+    "received": undefined,
+    "type": "added",
+    "where": "GET /api/users",
+  },
+  {
+    "change": {
+      "added": {
+        "method": "get",
+        "pathPattern": "/api/users",
+      },
+      "changeType": "added",
+      "location": {
+        "conceptualLocation": {
+          "method": "get",
+          "path": "/api/users",
+        },
+        "conceptualPath": [
+          "operations",
+          "/api/users",
+          "get",
+        ],
+        "jsonPath": "/paths/~1api~1users/get",
+        "kind": "operation",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/jsonapi.md#pagination-parameters",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "pagination parameters",
+    "passed": true,
+    "received": undefined,
+    "type": "added",
+    "where": "GET /api/users",
+  },
+  {
+    "change": {
+      "added": {
+        "method": "get",
+        "pathPattern": "/api/users",
+      },
+      "changeType": "added",
+      "location": {
+        "conceptualLocation": {
+          "method": "get",
+          "path": "/api/users",
+        },
+        "conceptualPath": [
+          "operations",
+          "/api/users",
+          "get",
+        ],
+        "jsonPath": "/paths/~1api~1users/get",
+        "kind": "operation",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/jsonapi.md#pagination-parameters",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "pagination parameters",
+    "passed": true,
+    "received": undefined,
+    "type": "added",
+    "where": "GET /api/users",
+  },
+  {
+    "change": {
+      "added": {
+        "contentType": "application/vnd.api+json",
+        "flatSchema": {},
+      },
+      "changeType": "added",
+      "location": {
+        "conceptualLocation": {
+          "inResponse": {
+            "body": {
+              "contentType": "application/vnd.api+json",
+            },
+            "statusCode": "200",
+          },
+          "method": "get",
+          "path": "/api/users",
+        },
+        "conceptualPath": [
+          "operations",
+          "/api/users",
+          "get",
+          "responses",
+          "200",
+          "application/vnd.api+json",
+        ],
+        "jsonPath": "/paths/~1api~1users/get/responses/200/content/application~1vnd.api+json",
+        "kind": "body",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/jsonapi.md#pagination-parameters",
+    "error": "Expected a partial match",
+    "exempted": false,
+    "expected": "{"schema":{"properties":{"links":{}}}}",
+    "isMust": true,
+    "isShould": false,
+    "name": "pagination links",
+    "passed": false,
+    "received": "{"schema":{"properties":{"nolinks":{"type":"object","properties":{}}}}}",
+    "type": "added",
+    "where": "GET /api/users response 200 response body: application/vnd.api+json",
+  },
+]
+`;
+
+exports[`pagination rules fails when pagination endpoint does not specify all pagination parameters 1`] = `
+[
+  {
+    "change": {
+      "added": {
+        "method": "get",
+        "pathPattern": "/api/users",
+      },
+      "changeType": "added",
+      "location": {
+        "conceptualLocation": {
+          "method": "get",
+          "path": "/api/users",
+        },
+        "conceptualPath": [
+          "operations",
+          "/api/users",
+          "get",
+        ],
+        "jsonPath": "/paths/~1api~1users/get",
+        "kind": "operation",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/jsonapi.md#pagination-parameters",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "pagination parameters",
+    "passed": true,
+    "received": undefined,
+    "type": "added",
+    "where": "GET /api/users",
+  },
+  {
+    "change": {
+      "added": {
+        "method": "get",
+        "pathPattern": "/api/users",
+      },
+      "changeType": "added",
+      "location": {
+        "conceptualLocation": {
+          "method": "get",
+          "path": "/api/users",
+        },
+        "conceptualPath": [
+          "operations",
+          "/api/users",
+          "get",
+        ],
+        "jsonPath": "/paths/~1api~1users/get",
+        "kind": "operation",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/jsonapi.md#pagination-parameters",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "pagination parameters",
+    "passed": true,
+    "received": undefined,
+    "type": "added",
+    "where": "GET /api/users",
+  },
+  {
+    "change": {
+      "added": {
+        "method": "get",
+        "pathPattern": "/api/users",
+      },
+      "changeType": "added",
+      "location": {
+        "conceptualLocation": {
+          "method": "get",
+          "path": "/api/users",
+        },
+        "conceptualPath": [
+          "operations",
+          "/api/users",
+          "get",
+        ],
+        "jsonPath": "/paths/~1api~1users/get",
+        "kind": "operation",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/jsonapi.md#pagination-parameters",
+    "error": "Could not find a partial match in query parameters",
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "pagination parameters",
+    "passed": false,
+    "received": undefined,
+    "type": "added",
+    "where": "GET /api/users",
+  },
+]
+`;

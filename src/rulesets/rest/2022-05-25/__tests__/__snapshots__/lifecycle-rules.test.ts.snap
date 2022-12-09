@@ -1,0 +1,753 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lifecycle rules stability a valid stability is provided - beta 1`] = `
+[
+  {
+    "change": {
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+      "value": {
+        "info": {
+          "title": "Empty",
+          "version": "0.0.0",
+        },
+        "openapi": "3.1.0",
+        "x-snyk-api-stability": "beta",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#stability-levels",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability",
+    "passed": true,
+    "received": undefined,
+    "type": "requirement",
+    "where": "specification",
+  },
+  {
+    "change": {
+      "changeType": "changed",
+      "changed": {
+        "after": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+          "x-snyk-api-stability": "beta",
+        },
+        "before": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+        },
+      },
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#promoting-stability-of-a-resource-over-time",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability transitions",
+    "passed": true,
+    "received": undefined,
+    "type": "changed",
+    "where": "specification",
+  },
+]
+`;
+
+exports[`lifecycle rules stability a valid stability is provided - experimental 1`] = `
+[
+  {
+    "change": {
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+      "value": {
+        "info": {
+          "title": "Empty",
+          "version": "0.0.0",
+        },
+        "openapi": "3.1.0",
+        "x-snyk-api-stability": "experimental",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#stability-levels",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability",
+    "passed": true,
+    "received": undefined,
+    "type": "requirement",
+    "where": "specification",
+  },
+  {
+    "change": {
+      "changeType": "changed",
+      "changed": {
+        "after": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+          "x-snyk-api-stability": "experimental",
+        },
+        "before": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+        },
+      },
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#promoting-stability-of-a-resource-over-time",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability transitions",
+    "passed": true,
+    "received": undefined,
+    "type": "changed",
+    "where": "specification",
+  },
+]
+`;
+
+exports[`lifecycle rules stability a valid stability is provided - ga 1`] = `
+[
+  {
+    "change": {
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+      "value": {
+        "info": {
+          "title": "Empty",
+          "version": "0.0.0",
+        },
+        "openapi": "3.1.0",
+        "x-snyk-api-stability": "ga",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#stability-levels",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability",
+    "passed": true,
+    "received": undefined,
+    "type": "requirement",
+    "where": "specification",
+  },
+  {
+    "change": {
+      "changeType": "changed",
+      "changed": {
+        "after": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+          "x-snyk-api-stability": "ga",
+        },
+        "before": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+        },
+      },
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#promoting-stability-of-a-resource-over-time",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability transitions",
+    "passed": true,
+    "received": undefined,
+    "type": "changed",
+    "where": "specification",
+  },
+]
+`;
+
+exports[`lifecycle rules stability a valid stability is provided - wip 1`] = `
+[
+  {
+    "change": {
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+      "value": {
+        "info": {
+          "title": "Empty",
+          "version": "0.0.0",
+        },
+        "openapi": "3.1.0",
+        "x-snyk-api-stability": "wip",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#stability-levels",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability",
+    "passed": true,
+    "received": undefined,
+    "type": "requirement",
+    "where": "specification",
+  },
+  {
+    "change": {
+      "changeType": "changed",
+      "changed": {
+        "after": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+          "x-snyk-api-stability": "wip",
+        },
+        "before": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+        },
+      },
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#promoting-stability-of-a-resource-over-time",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability transitions",
+    "passed": true,
+    "received": undefined,
+    "type": "changed",
+    "where": "specification",
+  },
+]
+`;
+
+exports[`lifecycle rules stability an invalid stability is provided 1`] = `
+[
+  {
+    "change": {
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+      "value": {
+        "info": {
+          "title": "Empty",
+          "version": "0.0.0",
+        },
+        "openapi": "3.1.0",
+        "x-snyk-api-stability": "published",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#stability-levels",
+    "error": "published must be one of allowed values wip, experimental, beta, ga",
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability",
+    "passed": false,
+    "received": undefined,
+    "type": "requirement",
+    "where": "specification",
+  },
+  {
+    "change": {
+      "changeType": "changed",
+      "changed": {
+        "after": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+          "x-snyk-api-stability": "published",
+        },
+        "before": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+        },
+      },
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#promoting-stability-of-a-resource-over-time",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability transitions",
+    "passed": true,
+    "received": undefined,
+    "type": "changed",
+    "where": "specification",
+  },
+]
+`;
+
+exports[`lifecycle rules stability can not change from any stability but wip 1`] = `
+[
+  {
+    "change": {
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+      "value": {
+        "info": {
+          "title": "Empty",
+          "version": "0.0.0",
+        },
+        "openapi": "3.1.0",
+        "x-snyk-api-stability": "beta",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#stability-levels",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability",
+    "passed": true,
+    "received": undefined,
+    "type": "requirement",
+    "where": "specification",
+  },
+  {
+    "change": {
+      "changeType": "changed",
+      "changed": {
+        "after": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+          "x-snyk-api-stability": "beta",
+        },
+        "before": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+          "x-snyk-api-stability": "ga",
+        },
+      },
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#promoting-stability-of-a-resource-over-time",
+    "error": "stability transition from '[object Object]' to '[object Object]' not allowed",
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability transitions",
+    "passed": false,
+    "received": undefined,
+    "type": "changed",
+    "where": "specification",
+  },
+]
+`;
+
+exports[`lifecycle rules stability wip can be changed to another maturity 1`] = `
+[
+  {
+    "change": {
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+      "value": {
+        "info": {
+          "title": "Empty",
+          "version": "0.0.0",
+        },
+        "openapi": "3.1.0",
+        "x-snyk-api-stability": "ga",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#stability-levels",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability",
+    "passed": true,
+    "received": undefined,
+    "type": "requirement",
+    "where": "specification",
+  },
+  {
+    "change": {
+      "changeType": "changed",
+      "changed": {
+        "after": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+          "x-snyk-api-stability": "ga",
+        },
+        "before": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+          "x-snyk-api-stability": "wip",
+        },
+      },
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#promoting-stability-of-a-resource-over-time",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability transitions",
+    "passed": true,
+    "received": undefined,
+    "type": "changed",
+    "where": "specification",
+  },
+]
+`;
+
+exports[`lifecycle rules sunset fails when the file was removed and not deprecated 1`] = `
+[
+  {
+    "change": {
+      "changeType": "changed",
+      "changed": {
+        "after": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+          "x-optic-ci-empty-spec": true,
+        },
+        "before": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+        },
+      },
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#promoting-stability-of-a-resource-over-time",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability transitions",
+    "passed": true,
+    "received": undefined,
+    "type": "changed",
+    "where": "specification",
+  },
+  {
+    "change": {
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+      "value": {
+        "info": {
+          "title": "Empty",
+          "version": "0.0.0",
+        },
+        "openapi": "3.1.0",
+        "x-optic-ci-empty-spec": true,
+      },
+    },
+    "condition": undefined,
+    "docsLink": undefined,
+    "error": "expected Example to be deprecated before removing",
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "sunset rules",
+    "passed": false,
+    "received": undefined,
+    "type": "requirement",
+    "where": "specification",
+  },
+]
+`;
+
+exports[`lifecycle rules sunset schedule fails when the schedule isn't met 1`] = `
+[
+  {
+    "change": {
+      "changeType": "changed",
+      "changed": {
+        "after": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+          "x-optic-ci-empty-spec": true,
+        },
+        "before": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+        },
+      },
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#promoting-stability-of-a-resource-over-time",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability transitions",
+    "passed": true,
+    "received": undefined,
+    "type": "changed",
+    "where": "specification",
+  },
+  {
+    "change": {
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+      "value": {
+        "info": {
+          "title": "Empty",
+          "version": "0.0.0",
+        },
+        "openapi": "3.1.0",
+        "x-optic-ci-empty-spec": true,
+      },
+    },
+    "condition": undefined,
+    "docsLink": undefined,
+    "error": "expected beta resource Example to be deprecated 90 days",
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "sunset rules",
+    "passed": false,
+    "received": undefined,
+    "type": "requirement",
+    "where": "specification",
+  },
+]
+`;
+
+exports[`lifecycle rules sunset schedule passes when the schedule is met 1`] = `
+[
+  {
+    "change": {
+      "changeType": "changed",
+      "changed": {
+        "after": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+          "x-optic-ci-empty-spec": true,
+        },
+        "before": {
+          "info": {
+            "title": "Empty",
+            "version": "0.0.0",
+          },
+          "openapi": "3.1.0",
+        },
+      },
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+    },
+    "condition": undefined,
+    "docsLink": "https://github.com/snyk/sweater-comb/blob/main/docs/principles/version.md#promoting-stability-of-a-resource-over-time",
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "resource stability transitions",
+    "passed": true,
+    "received": undefined,
+    "type": "changed",
+    "where": "specification",
+  },
+  {
+    "change": {
+      "location": {
+        "conceptualLocation": {},
+        "conceptualPath": [],
+        "jsonPath": "",
+        "kind": "specification",
+      },
+      "value": {
+        "info": {
+          "title": "Empty",
+          "version": "0.0.0",
+        },
+        "openapi": "3.1.0",
+        "x-optic-ci-empty-spec": true,
+      },
+    },
+    "condition": undefined,
+    "docsLink": undefined,
+    "error": undefined,
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "sunset rules",
+    "passed": true,
+    "received": undefined,
+    "type": "requirement",
+    "where": "specification",
+  },
+]
+`;

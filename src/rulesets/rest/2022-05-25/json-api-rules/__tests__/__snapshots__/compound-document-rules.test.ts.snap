@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`compoundDocuments fails when specifying compound documents 1`] = `
+[
+  {
+    "change": {
+      "added": {
+        "contentType": "application/vnd.api+json",
+        "flatSchema": {},
+      },
+      "changeType": "added",
+      "location": {
+        "conceptualLocation": {
+          "inResponse": {
+            "body": {
+              "contentType": "application/vnd.api+json",
+            },
+            "statusCode": "200",
+          },
+          "method": "get",
+          "path": "/api/example",
+        },
+        "conceptualPath": [
+          "operations",
+          "/api/example",
+          "get",
+          "responses",
+          "200",
+          "application/vnd.api+json",
+        ],
+        "jsonPath": "/paths/~1api~1example/get/responses/200/content/application~1vnd.api+json",
+        "kind": "body",
+      },
+    },
+    "condition": undefined,
+    "docsLink": undefined,
+    "error": "Expected to not find a partial match",
+    "exempted": false,
+    "expected": "{"schema":{"properties":{"included":{}}}}",
+    "isMust": true,
+    "isShould": false,
+    "name": "disallow compound documents",
+    "passed": false,
+    "received": "{"schema":{"properties":{"included":{"type":"object","properties":{}}}}}",
+    "type": "added",
+    "where": "GET /api/example response 200 response body: application/vnd.api+json",
+  },
+]
+`;

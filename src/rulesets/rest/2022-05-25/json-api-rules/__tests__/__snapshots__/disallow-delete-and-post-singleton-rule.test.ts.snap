@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`singleton disallowed methods fails when adding delete method to singleton 1`] = `
+[
+  {
+    "change": {
+      "location": {
+        "conceptualLocation": {
+          "method": "delete",
+          "path": "/api/example",
+        },
+        "conceptualPath": [
+          "operations",
+          "/api/example",
+          "delete",
+        ],
+        "jsonPath": "/paths/~1api~1example/delete",
+        "kind": "operation",
+      },
+      "value": {
+        "method": "delete",
+        "pathPattern": "/api/example",
+      },
+    },
+    "condition": undefined,
+    "docsLink": undefined,
+    "error": "delete is not allowed in JSON:API singletons",
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "disallow singletons for delete or post",
+    "passed": false,
+    "received": undefined,
+    "type": "requirement",
+    "where": "DELETE /api/example",
+  },
+]
+`;
+
+exports[`singleton disallowed methods fails when adding post method to singleton 1`] = `
+[
+  {
+    "change": {
+      "location": {
+        "conceptualLocation": {
+          "method": "post",
+          "path": "/api/example",
+        },
+        "conceptualPath": [
+          "operations",
+          "/api/example",
+          "post",
+        ],
+        "jsonPath": "/paths/~1api~1example/post",
+        "kind": "operation",
+      },
+      "value": {
+        "method": "post",
+        "pathPattern": "/api/example",
+      },
+    },
+    "condition": undefined,
+    "docsLink": undefined,
+    "error": "post is not allowed in JSON:API singletons",
+    "exempted": false,
+    "expected": undefined,
+    "isMust": true,
+    "isShould": false,
+    "name": "disallow singletons for delete or post",
+    "passed": false,
+    "received": undefined,
+    "type": "requirement",
+    "where": "POST /api/example",
+  },
+]
+`;
